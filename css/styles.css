@@ -76,7 +76,7 @@ img {
     letter-spacing: 0.02em;
     color: #2e2f42;
     display: flex;
-    /* align-items: center; */
+    align-items: center;
 
 }
 
@@ -94,6 +94,8 @@ img {
 
 .menu-nav-link {
     color: #2e2f42;
+    padding-bottom: 24px;
+    padding-top: 24px;
 }
 
 .menu-nav-link:hover,
@@ -285,6 +287,7 @@ img {
 
 .team-item {
     border-radius: 0px 0px 4px 4px;
+    width: calc((100% - 72px) / 4);
     background-color: #FFFFFF;
 }
 
@@ -318,7 +321,7 @@ img {
 }
 
 .portfolio-item {
-    ((100% - 48px) / 3)
+    width: ((100% - 48px) / 3);
 }
 
 .portfolio-item-container {
