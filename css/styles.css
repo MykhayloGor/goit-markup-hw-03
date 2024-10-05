@@ -6,7 +6,7 @@ body {
     letter-spacing: 0.02em;
     background-color: #fff;
     color: #434455;
-    width: 1440px;
+
 }
 
 h1,
@@ -38,7 +38,11 @@ img {
     display: block;
 }
 
-.container {}
+.container {
+    width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
 
 .header-container {
     display: flex;
@@ -82,7 +86,7 @@ img {
 
 .header-menu-list {
     gap: 40px;
-    margin-left: 76px;
+
 
 }
 
@@ -110,12 +114,13 @@ img {
     letter-spacing: 0.02em;
     font-style: normal;
     color: #434455;
+    display: flex;
+    margin-left: auto;
 
 }
 
 .contacts-list {
     display: flex;
-    margin-left: 332px;
     gap: 40px;
 }
 
@@ -136,12 +141,10 @@ img {
 
 .hero-container {
     display: flex;
-    margin: 0 auto;
-    max-width: 550px;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-self: center;
     align-items: center;
+
 }
 
 .hero-heading {
@@ -151,9 +154,8 @@ img {
     letter-spacing: 0.02em;
     color: #fff;
     text-align: center;
-    /* padding-top: 188px;
-    padding-bottom: 48px; */
     max-width: 496px;
+    margin-bottom: 48px;
 }
 
 .my-button {
@@ -169,7 +171,6 @@ img {
     min-width: 169px;
     height: 56px;
     border: none;
-    margin-bottom: 188px;
     display: block;
     align-items: center;
     text-align: center;
@@ -204,12 +205,8 @@ img {
 
 .features-list {
     display: flex;
-    /* align-items: center;
-    justify-content: center; */
     gap: 24px;
-    margin-right: 156px;
-    margin-left: 156px;
-    margin-top: 120px;
+
 }
 
 .features-item {
@@ -231,7 +228,7 @@ img {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-bottom: 120px;
+
 }
 
 .our-team-container {
@@ -274,8 +271,8 @@ img {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    background: #f4f4fd;
     margin-bottom: 8px;
+
 }
 
 
